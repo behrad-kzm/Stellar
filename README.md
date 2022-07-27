@@ -5,83 +5,9 @@
 
 A fantastic Physical animation library for swift(Not Just Spring !!!), it is base on UIDynamic and extension to it, friendly APIs make you use it or custom your own animation very easily!
 
-## Support
-
-### Integration
-#### Cocoapods(iOS 8+)
-* You can use [Cocoapods](https://cocoapods.org/) to install Stellar by adding it to your Podfile:
-
-```
-platform :ios, '8.0'
-use_frameworks!
-
-target 'YourApp' do
-    pod 'Stellar', :git => 'https://github.com/AugustRush/Stellar.git'
-end
-```
-
-#### Carthage (iOS 8+)
-* You can use [Carthage](https://github.com/Carthage/Carthage) to install Stellar by adding it to your Cartfile:
-
-```
-github "AugustRush/Stellar"
-```
-
-#### Manually (iOS 8+)
-To use this library in your project manually you may:
-
-- for Projects, just drag Stellar [Sources](https://github.com/AugustRush/Stellar/tree/master/Sources) to the project tree
-- for Workspaces, include the whole StellarDemo.xcodeproj
-
-### Features
-```
-- View's Animation
-- Layer's Animation
-- Chainable (every step can be observed)
-- File configurable (come soon)
-```
-### Animations
-```
-- Basic
-- Gravity
-- Snap
-- Attachment
-- Push
-- Collsion(come soon)
-```
-### Animatable type
-```
-- Float
-- CGFloat
-- Double
-- CGSize
-- CGPoint
-- CGRect
-- UIColor
-- ......(Any Intrpolatable)
-```
-### Easing Curve (Base Animation)
-
-```swift
-- Default
-- EaseIn
-- EaseOut
-- EaseInEaseOut
-- Linear
-- SwiftOut
-- BackEaseIn
-- BackEaseOut
-- BackEaseInOut
-- BounceOut
-- Sine
-- Circ
-- ExponentialIn
-- ExponentialOut
-- ElasticIn
-- ElasticOut
-- BounceReverse
-- Custom(Double, Double, Double, Double)
-```
+## Note
+This is lite version of Stellar and fixed package.swift problems.
+all unneccessary files removed and only package.swift is availableto use 
 ## On display
 
 #### Funny demo's gif(s)
